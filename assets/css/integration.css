@@ -1,0 +1,77 @@
+.anchor-tag{
+    text-decoration: none;
+}
+.call-btn{
+    z-index: 99999;
+    height: 68px;
+    width: 68px;
+    position: fixed;
+    right: 21px;
+    bottom:20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    color: #25D366;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 1px 1px 10px 1px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.call-hover-effect:hover{
+    cursor: pointer;
+    background-color: #25D366; 
+    .call-hover-effect{
+        color: #ffffff;
+    }
+}
+
+.wtsp-btn{
+    z-index: 99999;
+    height: 68px;
+    width: 68px;
+    position: fixed;
+    left: 21px;
+    bottom:20px;
+    text-align: center;
+    background-color: #25D366;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 10px 1px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-hover-effect:hover{
+    cursor: pointer;
+    background-color: #ffffff; 
+    .wp-hover-effect{
+        color: #25D366;
+    }
+}
+@media (max-width:768px){
+   
+    .call-btn{
+        bottom: 50px;
+    }
+    .wtsp-btn{
+        bottom: 50px;
+    }
+   
+}
+.back-to-top{
+    margin-bottom: 8%;
+}
+
+@media (max-width:512px){
+    .back-to-top{
+        margin-bottom: 8%;
+    }
+    
+}
