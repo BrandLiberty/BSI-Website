@@ -6,7 +6,7 @@ const cors = require('cors'); // Import the cors module
 
 const app = express();
 const router = express.Router()
-const PORT = 3000;
+const PORT = 4000;
 // Body parser middleware
 // app.use(bodyParser.urlencoded({ extended: true }));
 // app.use(bodyParser.json());
