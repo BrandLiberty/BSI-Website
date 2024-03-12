@@ -263,6 +263,7 @@ section {
 
 .header .logo h1 span {
   color: var(--color-primary);
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -853,9 +854,15 @@ h5{
   margin: 0;
 }
 
+
 @media (max-width: 575px) {
   .features .nav-link h4 {
     font-size: 16px;
+  }
+}
+@media (max-width: 440px) {
+  .features .nav-link h4 {
+    font-size: 11px;
   }
 }
 
@@ -1299,12 +1306,39 @@ h5{
   background-position: center;
 }
 
+.about-our-approach-content{
+  font-size: 20px;
+}
+
 @media (min-width: 992px) {
   .about .about-img {
     position: absolute;
     top: 0;
     right: 0;
   }
+  .about-our-approach-content{
+    font-size: 14px;
+  }
+  
+}
+
+@media (min-width: 400px){
+  .about-our-approach-content{
+    font-size: 14px;
+  }
+
+}
+@media (min-width: 380px){
+  .about-our-approach-content{
+    font-size: 14px;
+  }
+  .section-bg-color{
+    height: 370px;
+  }
+  .section-header h2{
+    font-size: 25px;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -2150,7 +2184,7 @@ h5{
 }
 
 .footer .footer-content .footer-links ul a:hover {
-  color: #fff;
+  color: var(--color-primary);
 }
 
 .footer .footer-legal .copyright {
