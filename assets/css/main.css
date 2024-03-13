@@ -70,7 +70,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   position: relative;
   color: #2e3135;
@@ -743,9 +743,15 @@ h5{
 
 .constructions .card-item h4 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 23px;
   margin-bottom: 15px;
   color: var(--color-secondary);
+}
+
+
+.constructions .card-item h4:hover{
+  color: var(--color-primary);
+  cursor: pointer;
 }
 
 .constructions .card-item p {
@@ -1031,6 +1037,12 @@ h5{
   transform: scale(1.1);
 }
 
+@media (max-width: 767px) {
+  .projects .portfolio-content .portfolio-info p{
+    font-size: 13px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
@@ -1260,6 +1272,11 @@ h5{
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--color-secondary);
+}
+
+.about .our-story h3:hover{
+  color: var(--color-primary);
+  cursor: pointer;
 }
 
 .about .our-story p:last-child {
