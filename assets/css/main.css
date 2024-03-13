@@ -66,6 +66,7 @@ section {
 .section-header {
   text-align: center;
   padding-bottom: 70px;
+  padding: 15px; 
 }
 
 .section-header h2 {
@@ -1329,9 +1330,9 @@ h5{
 
 }
 @media (min-width: 380px){
-  .about-our-approach-content{
-    font-size: 14px;
-  }
+  .about-our-approach-content {
+    font-size: 13px;
+}
   .section-bg-color{
     height: 370px;
   }
