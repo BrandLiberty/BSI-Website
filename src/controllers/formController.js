@@ -17,7 +17,7 @@ exports.sendEmail = (req, res) => {
   // Email content
   const mailOptions = {
     from: email,
-    to: 'info@substationbse.com',
+    to: 'boostsubserveengineering@gmail.com',
     subject: subject,
     text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`
   };
